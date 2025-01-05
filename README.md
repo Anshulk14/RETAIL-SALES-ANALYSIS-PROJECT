@@ -44,9 +44,9 @@ Run the CREATE TABLE script to set up the retail_sales table.
 
 Use the provided SQL queries for data cleaning and exploratory analysis.
 
-SQL Queries
-
-Table Creation:
+**_SQL Queries_
+**
+_Table Creation_:
 
 CREATE TABLE retail_sales (
     Transaction_ID INT PRIMARY KEY,
@@ -60,7 +60,7 @@ CREATE TABLE retail_sales (
     Total_Amount INT
 );
 
-Data Cleaning: Identify missing values:
+_Data Cleaning: Identify missing values:_
 
 SELECT * FROM retail_sales
 WHERE Transaction_ID IS NULL
@@ -73,17 +73,17 @@ WHERE Transaction_ID IS NULL
    OR Price_per_unit IS NULL
    OR Total_Amount IS NULL;
 
-Checking for Duplicates:
+_Checking for Duplicates:_
 
 SELECT Transaction_ID, Date, COUNT(*)
 FROM retail_sales
 GROUP BY Transaction_ID, Date
 HAVING COUNT(*) > 1;
 
-Future Enhancements
-
+**_Future Enhancements_**
+_
 Incorporate more advanced queries for sales trend analysis.
 
 Add visualizations by integrating with BI tools like Tableau or Power BI.
 
-Automate data import and cleaning processes.
+Automate data import and cleaning processes._
