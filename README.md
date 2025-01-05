@@ -34,9 +34,7 @@ Database Management Tools: PostgreSQL or any SQL client of your choice (e.g., pg
 
 Setup Instructions
 
-Clone this repository:
 
-git clone https://github.com/yourusername/retail-sales-analysis.git
 
 Open the SQL file in your preferred SQL client.
 
