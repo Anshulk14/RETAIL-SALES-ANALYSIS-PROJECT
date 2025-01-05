@@ -35,8 +35,8 @@ The project focuses on:
 ---
 
 ## Tools  
-- **PostgreSQL** for database management.  
-- **SQL** for data manipulation and analysis.  
+- **PostgreSQL** 
+ 
 
 ---
 
