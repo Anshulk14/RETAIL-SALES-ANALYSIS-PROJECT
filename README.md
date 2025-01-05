@@ -4,29 +4,29 @@ Overview
 
 The Retail Sales Analysis Project is a comprehensive SQL-based solution to manage and analyze retail sales data. This project involves creating a structured table to store sales transactions, performing data cleaning, and conducting exploratory data analysis (EDA) to gain insights into sales trends and customer behavior.
 
-Table of Contents
+Table of Contents:-
 
-Overview
+1.Overview
 
-Project Features
+2.Project Features
 
-Technologies Used
+3.Technologies Used
 
-Setup Instructions
+4.Setup Instructions
 
-SQL Queries
+5.SQL Queries
 
-Future Enhancements
+6.Future Enhancements
 
-Project Features
 
-Table Creation: Create a retail_sales table to store key transaction details like Transaction ID, Date, Customer ID, Gender, Age, Product Category, Quantity, Price per Unit, and Total Amount.
 
-Data Cleaning: Identify and handle missing values to ensure data integrity.
+_Table Creation_: Create a retail_sales table to store key transaction details like Transaction ID, Date, Customer ID, Gender, Age, Product Category, Quantity, Price per Unit, and Total Amount.
 
-Exploratory Data Analysis: Run queries to preview the dataset, retrieve column metadata, count records, and check for duplicate transactions.
+_Data Cleaning_: Identify and handle missing values to ensure data integrity.
 
-Technologies Used
+_Exploratory Data Analysis:_ Run queries to preview the dataset, retrieve column metadata, count records, and check for duplicate transactions.
+
+_Technologies Used_
 
 SQL: PostgreSQL for database management and querying.
 
